@@ -1,0 +1,40 @@
+    	#output {
+    		display: flex;
+    		flex-direction: row;
+        flex-wrap: wrap;
+        border: 1px solid black;
+    	}
+    	.file {
+    		display: flex;
+    		flex-direction: row;
+        justify-content: space-between;
+        margin: 2rem;
+        border: 4rem;
+        width: 10rem;
+        cursor: move;
+    	}
+      .file_icons {
+        width: 8rem;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      body {
+        background-color: white;
+      }
+
+      p {
+          width: 200px;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+
+      h1 {
+        text-align: center;
+      }
+
+      #trash {
+        width: 3rem;
+      }
