@@ -1,4 +1,4 @@
-# drive_view
+# SimpleDriveInterface
 
 This is a little google drive interface I built a while ago. 
 
